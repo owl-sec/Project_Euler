@@ -1,6 +1,6 @@
 600851475143
 prime = True
-for num in range(int(600851475143 / 2), 2, -1):     #to iterate between 10 to 20
+for num in range(int(10), 2, -1):     #to iterate between 10 to 20
     prime = True
     for i in range(2,num):    #to iterate on the factors of the number
       if num%i == 0:         #to determine the first factor
